@@ -1,0 +1,31 @@
+name: Test
+
+api: [3.0.0, 4.0.0]
+
+version: 0.0.1
+
+main: david\Tutorial\Main
+
+author:
+
+ - ceepkev77
+
+ - Crow balde
+
+load: STARTUP
+
+commands:
+
+  command1:
+
+    description: test1
+
+    usage: "/command1"
+
+  command2:
+
+    description: command2
+
+    usage: "/command2"
+
+    permission: command2.rechte
